@@ -10,7 +10,7 @@ public class Hooks {
 	{
 		//write a code that will give you placeID
 		//execute this code only when place id is null
-		
+		System.out.println("Before delete place initialization");
 		StepDefination sd = new StepDefination();
 		if(StepDefination.place_id==null)    //can be called by sd.place_id but will give warning as it is static
 		{
