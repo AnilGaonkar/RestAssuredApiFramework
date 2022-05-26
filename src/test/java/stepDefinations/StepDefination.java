@@ -70,8 +70,8 @@ public class StepDefination extends Utils {
 		res=given().spec(requestSpecification().queryParam("place_id", place_id));
 		user_calls_with_http_request(resoursename, "GET");
 		String actualname = getJsonPath(response, "name");
-		System.out.println(actualname);
-		System.out.println(expectedname);
+		//System.out.println(actualname);
+		//System.out.println(expectedname);
 		assertEquals(actualname, expectedname);
 	}
 	
